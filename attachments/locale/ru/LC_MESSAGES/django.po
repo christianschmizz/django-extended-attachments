@@ -1,0 +1,204 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-02 18:54+0400\n"
+"PO-Revision-Date: 2010-08-02 18:59+0400\n"
+"Last-Translator: \n"
+"Language-Team: Русский <kde-russian@lists.kde.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: admin.py:24
+msgid "Relations"
+msgstr "Связи"
+
+#: admin.py:27
+msgid "Attachment"
+msgstr "Вложение"
+
+#: admin.py:30
+msgid "Antivirus"
+msgstr "Антивирус"
+
+#: admin.py:33
+msgid "Statistics"
+msgstr "Статистика"
+
+#: admin.py:36
+msgid "Extra"
+msgstr "Экстра"
+
+#: models.py:22
+msgid "Standing"
+msgstr "Ожидание"
+
+#: models.py:23
+msgid "Virus not found"
+msgstr "Вирус не найден"
+
+#: models.py:24
+msgid "Virus found"
+msgstr "Вирус найден"
+
+#: models.py:50
+msgid "Content Type"
+msgstr "Тип данных"
+
+#: models.py:50
+msgid "relation to model wich instance is own this attachment"
+msgstr "связь с моделью экземпляр которой владеет этим вложением"
+
+#: models.py:51
+msgid "Object ID"
+msgstr "Номер обьекта"
+
+#: models.py:51
+msgid "ID of object row"
+msgstr "номер записи обьекта"
+
+#: models.py:54
+msgid "search hash"
+msgstr "Поисковый хэш"
+
+#: models.py:55
+msgid "user"
+msgstr "Пользователь"
+
+#: models.py:56
+msgid "real file name"
+msgstr "Настоящее имя файла"
+
+#: models.py:57
+msgid "description"
+msgstr "Описание"
+
+#: models.py:57
+msgid "attachment description"
+msgstr "описание вложения"
+
+#: models.py:58 models.py:192
+msgid "MIME type"
+msgstr "тип MIME"
+
+#: models.py:59 models.py:72 models.py:188
+msgid "attachment"
+msgstr "вложение"
+
+#: models.py:60
+msgid "file size"
+msgstr "размер файла"
+
+#: models.py:61
+msgid "download count"
+msgstr "количество скачиваний"
+
+#: models.py:62
+msgid "Created"
+msgstr "Создано"
+
+#: models.py:64
+msgid "avntivirus state"
+msgstr "состояние антивирусной проверки"
+
+#: models.py:65
+msgid "antivirus report"
+msgstr "доклад антивируса"
+
+#: models.py:67
+msgid "checksum"
+msgstr "контрольная сумма"
+
+#: models.py:67
+msgid "SHA1 checksum"
+msgstr "контрольная сумма по алгоритму SHA1"
+
+#: models.py:68
+msgid "can generate thumbnails"
+msgstr "Можно создать миниатюры"
+
+#: models.py:73
+msgid "attachments"
+msgstr "вложения"
+
+#: models.py:187
+msgid "created"
+msgstr "создано"
+
+#: models.py:188
+msgid "thumbnail for this attachment"
+msgstr "миниатюра для этого вложения"
+
+#: models.py:189
+msgid "width"
+msgstr "ширина"
+
+#: models.py:190
+msgid "height"
+msgstr "высота"
+
+#: models.py:191 models.py:196
+msgid "thumbnail"
+msgstr "миниатюра"
+
+#: models.py:197
+msgid "thumbnails"
+msgstr "миниатюры"
+
+#: utils.py:24
+#, python-format
+msgid "%d B"
+msgstr "%d Б"
+
+#: utils.py:26
+#, python-format
+msgid "%d KiB"
+msgstr "%d КиБ"
+
+#: utils.py:28
+#, python-format
+msgid "%.2f MiB"
+msgstr "%.2f МиБ"
+
+#: utils.py:30
+#, python-format
+msgid "%.2f GiB"
+msgstr "%.2f ГиБ"
+
+#: utils.py:32
+#, python-format
+msgid "%.2f TiB"
+msgstr "%.2f ТиБ"
+
+#: views.py:46
+msgid "Your attachment was uploaded."
+msgstr "Ваше вложение загружено."
+
+#: views.py:69
+msgid "Your attachment was deleted."
+msgstr "Ваше вложение удалено."
+
+#: views.py:96
+msgid "Your attachment was updated."
+msgstr "Ваше вложение обновлено."
+
+#: templates/attachments/add_form.html:7
+msgid "Add attachment"
+msgstr "Добавить вложение"
+
+#: templates/attachments/delete_form.html:6
+msgid "Delete attachment"
+msgstr "Удалить вложение"
+
+#: templates/attachments/update_form.html:7
+msgid "Update attachment"
+msgstr "Добавить вложение"
+
