@@ -4,6 +4,9 @@
 django-extended-attachments
 ===========================
 
+This repository is fork of django-extended-attachments at version 0.4,
+which was originally locacted at http://hg.vehq.ru/django-extended-attachments/.
+
 django-extended-attachments is a file storage application
 with following features:
 
